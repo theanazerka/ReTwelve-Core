@@ -1,0 +1,5 @@
+LocalConfig.h
+.theos/
+packages/
+dist/
+*.ipa

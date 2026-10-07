@@ -1,0 +1,1 @@
+celt/arm/celt_pitch_xcorr_arm-gnu.lo: celt/arm/celt_pitch_xcorr_arm-gnu.S

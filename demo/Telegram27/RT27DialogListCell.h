@@ -1,0 +1,84 @@
+#import "../Seven/RT7UIKit.h"
+#import "RT27Compat.h"
+/*
+ * This is the source code of Telegram for iOS v. 1.1
+ * It is licensed under GNU GPL v. 2 or later.
+ * You should have received a copy of the license in this archive (see LICENSE).
+ *
+ * Copyright Peter Iakovlev, 2013.
+ */
+
+#import <UIKit/UIKit.h>
+
+#import "RT27DialogListCellAssetsSource.h"
+
+#import "RT27Compat.h"
+
+#import "RT27Compat.h"
+
+@interface RT27DialogListCell : RT7ListCell
+
+@property (nonatomic, strong) id<RT27DialogListCellAssetsSource> assetsSource;
+
+@property (nonatomic, strong) NSObject *watcherHandle;
+
+@property (nonatomic) int reuseTag;
+@property (nonatomic) int64_t conversationId;
+
+@property (nonatomic, strong) NSString *titleText;
+@property (nonatomic, strong) NSString *messageText;
+@property (nonatomic) bool rawText;
+@property (nonatomic, strong) NSArray *messageAttachments;
+@property (nonatomic, strong) NSDictionary *users;
+
+@property (nonatomic, strong) NSArray *titleLetters;
+@property (nonatomic, strong) UIColor *titleColor;
+
+@property (nonatomic) NSTimeInterval date;
+@property (nonatomic) bool outgoing;
+@property (nonatomic) bool unread;
+@property (nonatomic) RT27MessageDeliveryState deliveryState;
+@property (nonatomic) int unreadCount;
+@property (nonatomic) int serviceUnreadCount;
+
+@property (nonatomic, strong) NSString *avatarUrl;
+@property (nonatomic) bool isOnline;
+
+@property (nonatomic) bool isMuted;
+
+@property (nonatomic) bool isGroupChat;
+@property (nonatomic) int groupChatAvatarCount;
+@property (nonatomic, strong) NSArray *groupChatAvatarUrls;
+
+@property (nonatomic) bool isEncrypted;
+@property (nonatomic) int encryptionStatus;
+@property (nonatomic) int encryptedUserId;
+@property (nonatomic) bool encryptionOutgoing;
+@property (nonatomic) NSString *encryptionFirstName;
+
+@property (nonatomic) NSString *authorName;
+
+@property (nonatomic) NSString *typingString;
+
+@property (nonatomic) bool enableEditing;
+
+@property (nonatomic) bool isBroadcast;
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier assetsSource:(id<RT27DialogListCellAssetsSource>)assetsSource;
+
+- (void)collectCachedPhotos:(NSMutableDictionary *)dict;
+
+- (void)setTypingString:(NSString *)typingString animated:(bool)animated;
+- (void)restartAnimations:(bool)force;
+- (void)stopAnimations;
+
+- (void)resetView:(bool)keepState;
+- (void)setCachedAvatarImage:(UIImage *)image;
+
+- (void)dismissEditingControls:(bool)animated;
+
+- (bool)showingDeleteConfirmationButton;
+
+- (void)resetLocalization;
+
+@end

@@ -1,0 +1,206 @@
+{
+  "TGAnimationBlockDelegate.h": {
+    "source": "legacy/TelegraphKit/TGAnimationBlockDelegate.h",
+    "sha256": "09f3e309a8b07368737c8c7bca8b443609b4fdf3a83a040ff6aa44780565ee05"
+  },
+  "TGAnimationBlockDelegate.m": {
+    "source": "legacy/TelegraphKit/TGAnimationBlockDelegate.m",
+    "sha256": "c98b51a5fae8325425adfd03570ce90afeb6a12ecad031e72dc0940a6919a72d"
+  },
+  "TGButtonCollectionItemView.h": {
+    "source": "Telegraph/TGButtonCollectionItemView.h",
+    "sha256": "af46d5fd92e6d4eeaa7d38d718da9b28b73979c6a8ae652ad2f3698dd03bccda"
+  },
+  "TGButtonCollectionItemView.m": {
+    "source": "Telegraph/TGButtonCollectionItemView.m",
+    "sha256": "d45379a5e041ce315948d39181fb5dfc14aa4a3f04e230dd91dc6faf35a4e6c3"
+  },
+  "TGCheckCollectionItemView.h": {
+    "source": "Telegraph/TGCheckCollectionItemView.h",
+    "sha256": "7f0f1fc5a60985ebd4774db2f9b0c96543fa32efac470b62a2dde7e0aa4417e9"
+  },
+  "TGCheckCollectionItemView.m": {
+    "source": "Telegraph/TGCheckCollectionItemView.m",
+    "sha256": "bda91c485cab7f7f435d8074860eb4917c9cdc3aa885ea65e1baf9bf6dcc0f75"
+  },
+  "TGCollectionItemView.h": {
+    "source": "Telegraph/TGCollectionItemView.h",
+    "sha256": "da7b98b3666c91c7910aefa94a0339dcff72bd81810684cf6a725b0bd5a48df1"
+  },
+  "TGCollectionItemView.m": {
+    "source": "Telegraph/TGCollectionItemView.m",
+    "sha256": "f7c10eb955994b59d61e6923ac6d3ae36a53cc7052c84989b0136448c1cae047"
+  },
+  "TGCommentCollectionItemView.h": {
+    "source": "Telegraph/TGCommentCollectionItemView.h",
+    "sha256": "c7fa8d47cf2784215681b995905070eb984aff5b16c1a14d7179a4e0b3eea80c"
+  },
+  "TGCommentCollectionItemView.m": {
+    "source": "Telegraph/TGCommentCollectionItemView.m",
+    "sha256": "7e28d151f41045231834d605f233ecf2fec008bb5b576efcd0bf2f4bc4e2c928"
+  },
+  "TGContactCell.h": {
+    "source": "Telegraph/TGContactCell.h",
+    "sha256": "0e8f36ed76c15cfcc6304b66495ad19763db9ac00d74179f1d005b52e2727f72"
+  },
+  "TGContactCell.m": {
+    "source": "Telegraph/TGContactCell.m",
+    "sha256": "bd524b0c55a2d2087f914ebfcdc0598840112474b041db035f868e45f7736d49"
+  },
+  "TGContactCellContents.h": {
+    "source": "Telegraph/TGContactCellContents.h",
+    "sha256": "7103c1314779d83a193f347543041f9c15b1cf1f04c24af83d987c5255faffc8"
+  },
+  "TGContactCellContents.m": {
+    "source": "Telegraph/TGContactCellContents.m",
+    "sha256": "5d09a8ae26ad116b06989d56398763951d0441640d8209395c70f21cc676197d"
+  },
+  "TGDateLabel.h": {
+    "source": "legacy/TelegraphKit/TGDateLabel.h",
+    "sha256": "379dc061d73954a7d2425b9a0d373365f9c752a72c6c537a036c8b6c5f0faad4"
+  },
+  "TGDateLabel.m": {
+    "source": "legacy/TelegraphKit/TGDateLabel.m",
+    "sha256": "536af442895dda7e7a7b57130bed70765b7f8d43e4b190d2f9bfa738a0468941"
+  },
+  "TGDialogListCell.h": {
+    "source": "legacy/TelegraphKit/TGDialogListCell.h",
+    "sha256": "05a9feeaa9add33b1bf97a99b0dbf980e55d21f7eebbc88364f67d301334a67e"
+  },
+  "TGDialogListCell.m": {
+    "source": "legacy/TelegraphKit/TGDialogListCell.m",
+    "sha256": "2a8c8b09c881f8f34165c5807d369e9abe3c8a4637b8c5c457b5006c76fb8608"
+  },
+  "TGDialogListCellAssetsSource.h": {
+    "source": "legacy/TelegraphKit/TGDialogListCellAssetsSource.h",
+    "sha256": "06d614bd41799c083043e1af76a4987ab5249735015b5758409bf77756d3d3b9"
+  },
+  "TGFlatActionCell.h": {
+    "source": "Telegraph/TGFlatActionCell.h",
+    "sha256": "833ff88c11f767a1e9080da8ddd40d3b23a3b26aae0597cf628c25e794872219"
+  },
+  "TGFlatActionCell.m": {
+    "source": "Telegraph/TGFlatActionCell.m",
+    "sha256": "27206241ad3d2e1ccd3e4cac41e4e2fda1034478c97e54f422894d022fedffd2"
+  },
+  "TGGroupInfoCollectionItemView.h": {
+    "source": "Telegraph/TGGroupInfoCollectionItemView.h",
+    "sha256": "5675209bd7166aca435d25f4e45f6a93fffbb679de04b59c9c23e8e0f0b09bb3"
+  },
+  "TGGroupInfoCollectionItemView.m": {
+    "source": "Telegraph/TGGroupInfoCollectionItemView.m",
+    "sha256": "0d46702ecc13c8a2b8cd1146ed52cb6124db63c364a6d648372a40e767a26a04"
+  },
+  "TGHeaderCollectionItemView.h": {
+    "source": "Telegraph/TGHeaderCollectionItemView.h",
+    "sha256": "6634a0b31d36c021dbda0dded39204fd440e3e39e1ee27b4b2635f3bd3db5b10"
+  },
+  "TGHeaderCollectionItemView.m": {
+    "source": "Telegraph/TGHeaderCollectionItemView.m",
+    "sha256": "56e00f385f105f7b13af179681168d5ef6d94928693b43364676a9a06e4ab5a9"
+  },
+  "TGLabel.h": {
+    "source": "legacy/TelegraphKit/TGLabel.h",
+    "sha256": "fc2f7288fef49f284eda88b0151208016d3b3197c5dff88e8a9f8e7f3ad2150a"
+  },
+  "TGLabel.m": {
+    "source": "legacy/TelegraphKit/TGLabel.m",
+    "sha256": "9f558c6d445c0486d437b1f39ddda01d5e21cbe9d4347f5b8665acd84ae08da0"
+  },
+  "TGMainTabsController.m": {
+    "source": "Telegraph/TGMainTabsController.m",
+    "sha256": "4059768a176f2db571efafe67406a3333214fc6765982bd9049e08b61373c66a"
+  },
+  "TGModernBackToolbarButton.h": {
+    "source": "legacy/TelegraphKit/TGModernBackToolbarButton.h",
+    "sha256": "c0943514160fcf5b1662e40ea14bffa38f3ff41b9562674ff4ac02609822d688"
+  },
+  "TGModernBackToolbarButton.m": {
+    "source": "legacy/TelegraphKit/TGModernBackToolbarButton.m",
+    "sha256": "b9336cca1b1e6759115c366e98424a393f1bbe5fc8d5eeb56f157bb65aa17b6d"
+  },
+  "TGModernBarButton.h": {
+    "source": "legacy/TelegraphKit/TGModernBarButton.h",
+    "sha256": "0996d576e7fb47a4f66d73c0f44d55036a1afad2193c7d141a09a45f13123d3c"
+  },
+  "TGModernBarButton.m": {
+    "source": "legacy/TelegraphKit/TGModernBarButton.m",
+    "sha256": "6f9b0bf42198905d64b8bc556f3f385ec0745d690f67fddcd601e0f5e8791499"
+  },
+  "TGModernButton.h": {
+    "source": "legacy/TelegraphKit/TGModernButton.h",
+    "sha256": "706cb598fc15abb3c205cec374a70ff87d8ee0372dd16b4afc4e486ce883f5df"
+  },
+  "TGModernButton.m": {
+    "source": "legacy/TelegraphKit/TGModernButton.m",
+    "sha256": "f5b68ba263ad985fc7b0c6169de3243653384392c814ca9107d608022accdb08"
+  },
+  "TGModernConversationInputTextPanel.m": {
+    "source": "Telegraph/TGModernConversationInputTextPanel.m",
+    "sha256": "4a801205345a03ab18a96da24198ec8daeb5716d1937fc605374768f1c56410d"
+  },
+  "TGModernConversationTitleActivityIndicator.h": {
+    "source": "Telegraph/TGModernConversationTitleActivityIndicator.h",
+    "sha256": "c1553488c0c7fbbf392c833958678ad15c1f6833ed633a751177118db87c0b10"
+  },
+  "TGModernConversationTitleActivityIndicator.m": {
+    "source": "Telegraph/TGModernConversationTitleActivityIndicator.m",
+    "sha256": "84ded47d7696a215f03bcede5f5fb05aea9339c4dfb11b3aa001c84a4f9727b6"
+  },
+  "TGModernConversationTitleIcon.h": {
+    "source": "Telegraph/TGModernConversationTitleIcon.h",
+    "sha256": "0d399d69ce4c9b8f997aa55b8b27395706fe438bb37fe6e0b7a4e615e94fac4b"
+  },
+  "TGModernConversationTitleIcon.m": {
+    "source": "Telegraph/TGModernConversationTitleIcon.m",
+    "sha256": "527cd8cf366f24b06e56bc323254813853b0a0233a9ee141aa25716df5b8025a"
+  },
+  "TGModernConversationTitleView.h": {
+    "source": "Telegraph/TGModernConversationTitleView.h",
+    "sha256": "7395321656ed1beb3c211de8591202a6c68e396057c281783ac70b6688c5c57f"
+  },
+  "TGModernConversationTitleView.m": {
+    "source": "Telegraph/TGModernConversationTitleView.m",
+    "sha256": "48f94ee1135cacd545f4a40fad54c40595d3ac3ded5340a1a009c30394bec29a"
+  },
+  "TGModernToolbarButton.h": {
+    "source": "legacy/TelegraphKit/TGModernToolbarButton.h",
+    "sha256": "b3dd6b262eeab3dcf9c91c3ea2f24256f3acca330180a5c319e6947d4ff73adb"
+  },
+  "TGModernToolbarButton.m": {
+    "source": "legacy/TelegraphKit/TGModernToolbarButton.m",
+    "sha256": "4ac5449c455345ff911e44419e8d3151980a43d88650258e92563b06e8a20f98"
+  },
+  "TGTextField.h": {
+    "source": "legacy/TelegraphKit/TGTextField.h",
+    "sha256": "e0eb86293b64de64a4e226da337785113824333a6f32a9c279eac62f544aa6f5"
+  },
+  "TGTextField.m": {
+    "source": "legacy/TelegraphKit/TGTextField.m",
+    "sha256": "c41082cdb355fb3b961467dd2c33335f569bd1d5e758d1181127cca850aa0eba"
+  },
+  "TGTimerTarget.h": {
+    "source": "legacy/TelegraphKit/TGTimerTarget.h",
+    "sha256": "b15e652cb029e2027d70679e314e47fdbe7ed061d8484d5b79413b3f8060b2d7"
+  },
+  "TGTimerTarget.m": {
+    "source": "legacy/TelegraphKit/TGTimerTarget.m",
+    "sha256": "47a47499fab84d20e63feda3dee6f2b759dd48104424bc5054e1ade52d978c36"
+  },
+  "TGUserInfoCollectionItemView.h": {
+    "source": "Telegraph/TGUserInfoCollectionItemView.h",
+    "sha256": "20f3ad79721787874937fd0ea92d9f528f5e69003e991b5617b991ae32633e88"
+  },
+  "TGUserInfoCollectionItemView.m": {
+    "source": "Telegraph/TGUserInfoCollectionItemView.m",
+    "sha256": "3eb12a9105defbbcae762f224cb13bfde20ae50466efa25f0bcab301869a8021"
+  },
+  "TGVariantCollectionItemView.h": {
+    "source": "Telegraph/TGVariantCollectionItemView.h",
+    "sha256": "9875b742332162b32c4f1ece646219cbec473e460e3c224f125f9c55c8a14034"
+  },
+  "TGVariantCollectionItemView.m": {
+    "source": "Telegraph/TGVariantCollectionItemView.m",
+    "sha256": "e66a0604ad6495740177f657f2ecbfdf903cc8acf68a3ea0ad64a1faf6d0961d"
+  }
+}

@@ -1,0 +1,8 @@
+Package: com.anazerka.retwelve
+Name: ReTwelve
+Version: 0.17.0
+Architecture: iphoneos-arm
+Description: Telegram MTProto login, chats, round video and animated stickers for iOS 6
+Maintainer: anazerka
+Author: anazerka
+Section: Applications

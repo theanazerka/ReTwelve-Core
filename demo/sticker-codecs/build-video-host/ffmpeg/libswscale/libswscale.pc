@@ -1,0 +1,14 @@
+prefix=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-host
+exec_prefix=${prefix}
+libdir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-host/lib
+includedir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-host/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 8.3.100
+Requires: libavutil >= 59.39.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm
+Libs.private: 
+Cflags: -I${includedir}

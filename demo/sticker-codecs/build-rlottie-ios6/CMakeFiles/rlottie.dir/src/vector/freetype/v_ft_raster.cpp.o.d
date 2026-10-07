@@ -1,0 +1,35 @@
+CMakeFiles/rlottie.dir/src/vector/freetype/v_ft_raster.cpp.o: \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/rlottie/src/vector/freetype/v_ft_raster.cpp \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/rlottie/src/vector/freetype/v_ft_raster.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/rlottie/src/vector/freetype/v_ft_types.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/rlottie/src/vector/freetype/v_ft_math.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config_site \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/pthread.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/sys/cdefs.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/sys/_posix_availability.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/machine/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/arm/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/arm/_limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/setjmp.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/setjmp.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/machine/signal.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/arm/signal.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/string.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/sys/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/machine/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/arm/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/Availability.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/AvailabilityInternal.h \
+  /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/strings.h

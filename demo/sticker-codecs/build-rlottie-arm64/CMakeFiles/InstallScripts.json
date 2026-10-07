@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/inc/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/vector/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/vector/freetype/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/vector/pixman/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/vector/stb/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/lottie/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/binding/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/src/binding/c/cmake_install.cmake",
+		"/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-arm64/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

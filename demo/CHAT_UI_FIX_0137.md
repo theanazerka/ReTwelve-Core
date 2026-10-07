@@ -1,0 +1,8 @@
+# Chat interface — 0.13.7
+
+- Polls render directly in message bubbles with the question, anonymity, options, selection, result percentages, bars, per-option totals and overall total. Single-choice votes send directly; multiple-choice polls expose a vote button. Closed polls disable voting. Data accepts both legacy strings and textWithEntities. Server responses refresh history and invalidate the poll layout cache. The existing poll detail controller remains in source but tapping a poll no longer pushes it.
+- Attachment entry opens an animated panel over the chat. It embeds the existing original Telegram album/grid/preview implementation, opens Camera Roll immediately, puts recent media first, and provides horizontally scrolling attachment categories. Single/multiple selection, cancellation and internet search dismiss the panel before continuing. Category imagery uses original ImagePicker button resources; no blur is computed.
+- Channel forms measure multiline labels and reserve space for switches; description and name/photo controls use actual grouped-cell bounds. Group creation recalculates its title row and description inside the available content width. Forms do not force the keyboard open.
+- Player layout derives status-bar overlap from the host view, reserves controls at the bottom and centers the cover in remaining space. Progress refresh cannot reset the overlay frame during opening/closing animations.
+
+Armv7 compilation and IPA packaging are checked. Physical visual review and server voting remain to be verified on the user's device. The displayed reference uses modern colors; the client retains original iOS 6 bubble and panel artwork.

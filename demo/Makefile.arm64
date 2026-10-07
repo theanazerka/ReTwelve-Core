@@ -1,0 +1,40 @@
+THEOS ?= $(HOME)/theos
+TARGET := iphone:clang:16.5:12.0
+ARCHS := arm64
+
+include $(THEOS)/makefiles/common.mk
+
+APPLICATION_NAME := TelegramCodeDemo
+TelegramCodeDemo_FILES := TGClassicTableController.m TGAttachmentPanel.m TGInlinePollView.m TGTextInputCompatibility.m TGAccountStorage.m TGCustomEmojiController.m TGTextParser.m TGDialogFilterMatching.m TGContactToolsController.m TGLocalPasscode.m TGGroupManagementController.m TGDialogFilters.m TGAccountsController.m TGPollController.m TGLocationController.m TGStickerCatalogController.m TGFeatureForms.m TGMessageToolsController.m TGTextFormatting.m TGStickerKeyboardView.m LegacyCompose/TGChannelCreationController.m LegacyCompose/TGActionTableView.m LegacyCompose/TGBackspaceTextField.m LegacyCompose/TGContactCell.m LegacyCompose/TGContactCellContents.m LegacyCompose/TGContactsController.mm LegacyCompose/TGDateLabel.m LegacyCompose/TGGroupedCell.m LegacyCompose/TGHighlightTriggerLabel.m LegacyCompose/TGLabel.m LegacyCompose/TGLegacyUICompat.m LegacyCompose/TGMenuItem.m LegacyCompose/TGMenuSection.m LegacyCompose/TGProgressWindow.m LegacyCompose/TGSearchBar.m LegacyCompose/TGSearchDisplayMixin.m LegacyCompose/TGSelectContactController.m LegacyCompose/TGTelegraphConversationProfileController.mm LegacyCompose/TGTokenFieldView.m LegacyCompose/TGTokenView.m LegacyCompose/TGToolbarButton.m LegacyCompose/TGUserMenuItem.m LegacyCompose/TGUserMenuItemCell.m TGFlatActionCell.m main.m TGHistoryPresentation.m TGMessageMenuLayout.m TGImageSearchController.m TGDevicesController.m TGDeviceQRController.m TGLoginQRToken.m TGQRStillDecoder.m qr-codec/quirc.c qr-codec/identify.c qr-codec/decode.c qr-codec/version_db.c TGInlineAnimationView.m TGTransparentAnimationView.m TGClient.m TGModernTcpConnection.m TGTL.m TGSRP.m TGCallCrypto.m TGCallCipher.m TGCallSignal.m TGCallAudio.m TGCallICE.m TGCallReflector.m TGCallReflectorProtocol.m TGCallDTLS.m TGCallRTP.m TGCallMedia.m TGCallCoordinator.m TGDeviceKeychain.m TGConversationActionsPanel.m TGVoice.m TGTableView.m TGConversationItemView.m TGVideoStickerDecoder.c TGAnimatedSticker.m TGSettingsController.m TGTheme.m TGClassicMediaPicker.m TGImagePickerCell.mm TGImagePickerCellCheckButton.m TGImagePickerAsset.m TGImagePickerGalleryCell.m TGImagePickerCheckButton.m TGProfileMusicController.m TGMusicPlayer.m
+TelegramCodeDemo_CFLAGS := -fobjc-arc -fblocks -I$(CURDIR)/LegacyCompose -Wno-deprecated-declarations \
+  -I$(CURDIR)/../telegram-mtproto/submodules/MtProtoKit/PublicHeaders \
+  -I$(CURDIR)/../telegram-mtproto/submodules/EncryptionProvider/PublicHeaders \
+  -I$(CURDIR)/../telegram-mtproto/submodules/OpenSSLEncryptionProvider/PublicHeaders \
+  -I$(CURDIR)/../openssl-arm64/out/include \
+  -I$(CURDIR)/voice-codecs/out-arm64/include \
+  -I$(CURDIR)/voice-codecs/out-arm64/include/opus \
+  -I$(CURDIR)/call-transport/src/libjuice/include \
+  -I$(CURDIR)/call-transport/src/libsrtp/include \
+  -I$(CURDIR)/sticker-codecs/out-arm64/include \
+  -I$(CURDIR)/sticker-codecs/rlottie/inc \
+  -I$(CURDIR)/sticker-codecs/video-arm64/include
+TelegramCodeDemo_CCFLAGS := -std=c++11
+TelegramCodeDemo_FRAMEWORKS := MapKit CoreLocation AddressBook Foundation UIKit Security SystemConfiguration CFNetwork MobileCoreServices QuartzCore ImageIO AVFoundation AudioToolbox AssetsLibrary Network MediaPlayer QuickLook GLKit OpenGLES CoreVideo CoreMedia
+TelegramCodeDemo_LIBRARIES := z resolv c++
+TelegramCodeDemo_LDFLAGS := -Wl,-force_load,$(CURDIR)/../.theos/obj/debug/arm64/MtProtoKitIOS6.a \
+  $(CURDIR)/../openssl-arm64/out/lib/libssl.a \
+  $(CURDIR)/../openssl-arm64/out/lib/libcrypto.a \
+  $(CURDIR)/voice-codecs/out-arm64/lib/libopusfile.a \
+  $(CURDIR)/voice-codecs/out-arm64/lib/libopus.a \
+  $(CURDIR)/voice-codecs/out-arm64/lib/libogg.a \
+  $(CURDIR)/call-transport/out-arm64/lib/libjuice.a \
+  $(CURDIR)/call-transport/build/libsrtp-arm64/libsrtp2.a \
+  $(CURDIR)/sticker-codecs/out-arm64/lib/libwebpdecoder.a \
+  $(CURDIR)/sticker-codecs/build-rlottie-arm64/librlottie.a \
+  $(CURDIR)/sticker-codecs/video-arm64/lib/libavformat.a \
+  $(CURDIR)/sticker-codecs/video-arm64/lib/libavcodec.a \
+  $(CURDIR)/sticker-codecs/video-arm64/lib/libswscale.a \
+  $(CURDIR)/sticker-codecs/video-arm64/lib/libavutil.a \
+  $(CURDIR)/sticker-codecs/video-arm64/lib/libvpx.a
+
+include $(THEOS_MAKE_PATH)/application.mk

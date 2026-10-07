@@ -1,0 +1,9 @@
+Package: com.anazerka.telegramios3probe
+Name: Telegram iOS 3 Probe
+Description: MTProto connection check for iPhone OS 3
+Maintainer: anazerka
+Author: anazerka
+Section: Applications
+Architecture: iphoneos-arm
+Version: 0.1.1
+Installed-Size: 140

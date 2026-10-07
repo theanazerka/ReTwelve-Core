@@ -1,0 +1,8 @@
+silk/debug.lo: \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/silk/debug.c \
+  config.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/silk/debug.h
+
+config.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/silk/debug.h:

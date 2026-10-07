@@ -1,0 +1,158 @@
+src/opus.lo: \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/src/opus.c \
+  config.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_types.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/stdint.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int8_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int16_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int32_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int64_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint8_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint16_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint32_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint64_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/cdefs.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_posix_availability.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/types.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_intmax_t.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uintmax_t.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_defines.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/src/opus_private.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/arch.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/celt.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_custom.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entenc.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entcode.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/_limits.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/syslimits.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/ecintrin.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/math.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/Availability.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/AvailabilityVersions.h \
+  /Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/AvailabilityInternal.h \
+  /Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entdec.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h
+
+config.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_types.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdint.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/stdint.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int8_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int32_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_int64_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint8_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint16_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint32_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uint64_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/cdefs.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_posix_availability.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/_types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/_types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_intptr_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/types.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int32_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_intmax_t.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/_types/_uintmax_t.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_defines.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/src/opus_private.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/arch.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/celt.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/include/opus_custom.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entenc.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entcode.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/limits.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/machine/limits.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/limits.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/arm/_limits.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/sys/syslimits.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/ecintrin.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/math.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/Availability.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/AvailabilityVersions.h:
+
+/Users/anazerka/theos/sdks/iPhoneOS16.5.sdk/usr/include/AvailabilityInternal.h:
+
+/Users/anazerka/Documents/ChatGPT/twelve/demo/voice-codecs/src/opus-1.5.2/celt/entdec.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdarg.h:

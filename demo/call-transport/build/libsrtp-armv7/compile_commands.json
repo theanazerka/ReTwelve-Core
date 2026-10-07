@@ -1,0 +1,266 @@
+[
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/srtp/srtp.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/srtp/srtp.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/srtp/srtp.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/srtp/srtp.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/cipher.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/cipher.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/cipher/cipher_test_cases.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/cipher_test_cases.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/cipher_test_cases.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/cipher/cipher_test_cases.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/cipher/null_cipher.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/null_cipher.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/null_cipher.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/cipher/null_cipher.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/cipher/aes.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/aes.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/aes.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/cipher/aes.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/cipher/aes_icm.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/aes_icm.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/cipher/aes_icm.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/cipher/aes_icm.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/hash/auth.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/auth.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/auth.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/hash/auth.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/hash/auth_test_cases.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/auth_test_cases.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/auth_test_cases.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/hash/auth_test_cases.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/hash/null_auth.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/null_auth.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/null_auth.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/hash/null_auth.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/hash/hmac.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/hmac.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/hmac.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/hash/hmac.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/hash/sha1.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/sha1.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/hash/sha1.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/hash/sha1.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/kernel/alloc.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/alloc.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/alloc.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/kernel/alloc.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/kernel/crypto_kernel.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/crypto_kernel.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/crypto_kernel.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/kernel/crypto_kernel.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/kernel/err.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/err.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/err.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/kernel/err.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/kernel/key.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/key.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/kernel/key.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/kernel/key.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/math/datatypes.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/math/datatypes.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/math/datatypes.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/math/datatypes.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/replay/rdb.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/replay/rdb.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/replay/rdbx.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/replay/rdbx.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/aes_calc.dir/crypto/test/aes_calc.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/aes_calc.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/aes_calc.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/aes_calc.dir/crypto/test/aes_calc.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/aes_calc.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/aes_calc.dir/test/getopt_s.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/aes_calc.dir/test/util.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/aes_calc.dir/test/util.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/sha1_driver.dir/crypto/test/sha1_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/sha1_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/sha1_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/sha1_driver.dir/crypto/test/sha1_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/sha1_driver.dir/test/util.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/sha1_driver.dir/test/util.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/datatypes_driver.dir/crypto/test/datatypes_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/datatypes_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/datatypes_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/datatypes_driver.dir/crypto/test/datatypes_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/datatypes_driver.dir/test/util.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/datatypes_driver.dir/test/util.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/cipher_driver.dir/crypto/test/cipher_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/cipher_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/cipher_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/cipher_driver.dir/crypto/test/cipher_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/cipher_driver.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/cipher_driver.dir/test/getopt_s.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/kernel_driver.dir/crypto/test/kernel_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/kernel_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/test/kernel_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/kernel_driver.dir/crypto/test/kernel_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/kernel_driver.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/kernel_driver.dir/test/getopt_s.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rdbx_driver.dir/test/rdbx_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rdbx_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rdbx_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rdbx_driver.dir/test/rdbx_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rdbx_driver.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rdbx_driver.dir/test/getopt_s.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rdbx_driver.dir/test/ut_sim.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rdbx_driver.dir/test/ut_sim.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/replay_driver.dir/test/replay_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/replay_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/replay_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/replay_driver.dir/test/replay_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/replay_driver.dir/test/ut_sim.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/replay_driver.dir/test/ut_sim.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/roc_driver.dir/test/roc_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/roc_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/roc_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/roc_driver.dir/test/roc_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/roc_driver.dir/test/ut_sim.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/ut_sim.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/roc_driver.dir/test/ut_sim.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp_driver.dir/test/srtp_driver.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/srtp_driver.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/srtp_driver.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp_driver.dir/test/srtp_driver.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp_driver.dir/test/util.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp_driver.dir/test/util.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/srtp_driver.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/srtp_driver.dir/test/getopt_s.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/test_srtp.dir/test/test_srtp.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/test_srtp.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/test_srtp.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/test_srtp.dir/test/test_srtp.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rtpw.dir/test/rtpw.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rtpw.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rtpw.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rtpw.dir/test/rtpw.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rtpw.dir/test/rtp.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rtp.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/rtp.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rtpw.dir/test/rtp.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rtpw.dir/test/util.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/util.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rtpw.dir/test/util.c.o"
+},
+{
+  "directory": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7 -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/crypto/include -I/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/include -O3 -DNDEBUG -std=gnu99 -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -Wall -Wextra -Wshadow -Wpedantic -Wunused -Wnull-dereference -Wdouble-promotion -Wcast-qual -Werror -o CMakeFiles/rtpw.dir/test/getopt_s.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "file": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/src/libsrtp/test/getopt_s.c",
+  "output": "/Users/anazerka/Documents/ChatGPT/twelve/demo/call-transport/build/libsrtp-armv7/CMakeFiles/rtpw.dir/test/getopt_s.c.o"
+}
+]

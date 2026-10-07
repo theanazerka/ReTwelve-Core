@@ -1,0 +1,65 @@
+---
+triple:          'armv6-apple-darwin'
+binary-path:     '/Users/anazerka/Documents/ChatGPT/twelve/ios3/probe-app/.theos/obj/armv6/TelegramIOS3Probe.app/TelegramIOS3Probe'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate applicationDidFinishLaunching:]', symObjAddr: 0x0, symBinAddr: 0x8B34, symSize: 0x390 }
+  - { offsetInCU: 0x1202, offset: 0x1202, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate applicationDidFinishLaunching:]', symObjAddr: 0x0, symBinAddr: 0x8B34, symSize: 0x390 }
+  - { offsetInCU: 0x1206, offset: 0x1206, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate startProbe]', symObjAddr: 0x390, symBinAddr: 0x8EC4, symSize: 0x84 }
+  - { offsetInCU: 0x124F, offset: 0x124F, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate startProbe]', symObjAddr: 0x390, symBinAddr: 0x8EC4, symSize: 0x84 }
+  - { offsetInCU: 0x1253, offset: 0x1253, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate runProbe]', symObjAddr: 0x414, symBinAddr: 0x8F48, symSize: 0x17C }
+  - { offsetInCU: 0x127E, offset: 0x127E, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate runProbe]', symObjAddr: 0x414, symBinAddr: 0x8F48, symSize: 0x17C }
+  - { offsetInCU: 0x1282, offset: 0x1282, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate finishProbe:]', symObjAddr: 0x590, symBinAddr: 0x90C4, symSize: 0x3C }
+  - { offsetInCU: 0x12F8, offset: 0x12F8, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate finishProbe:]', symObjAddr: 0x590, symBinAddr: 0x90C4, symSize: 0x3C }
+  - { offsetInCU: 0x12FC, offset: 0x12FC, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate dealloc]', symObjAddr: 0x5CC, symBinAddr: 0x9100, symSize: 0x70 }
+  - { offsetInCU: 0x1336, offset: 0x1336, size: 0x4, addend: 0x0, symName: '-[TGIOS3ProbeDelegate dealloc]', symObjAddr: 0x5CC, symBinAddr: 0x9100, symSize: 0x70 }
+  - { offsetInCU: 0x133A, offset: 0x133A, size: 0x4, addend: 0x0, symName: _main, symObjAddr: 0x63C, symBinAddr: 0x9170, symSize: 0x7C }
+  - { offsetInCU: 0x1365, offset: 0x1365, size: 0x4, addend: 0x0, symName: _main, symObjAddr: 0x63C, symBinAddr: 0x9170, symSize: 0x7C }
+  - { offsetInCU: 0x1E, offset: 0x1A4F, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport init]', symObjAddr: 0x0, symBinAddr: 0x91EC, symSize: 0x44 }
+  - { offsetInCU: 0x22, offset: 0x1A53, size: 0x4, addend: 0x0, symName: '_OBJC_CLASS_$_TGIOS3Transport', symObjAddr: 0x8F0, symBinAddr: 0xC958, symSize: 0x0 }
+  - { offsetInCU: 0xE0, offset: 0x1B11, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport init]', symObjAddr: 0x0, symBinAddr: 0x91EC, symSize: 0x44 }
+  - { offsetInCU: 0xE4, offset: 0x1B15, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport dealloc]', symObjAddr: 0x44, symBinAddr: 0x9230, symSize: 0x50 }
+  - { offsetInCU: 0x113, offset: 0x1B44, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport dealloc]', symObjAddr: 0x44, symBinAddr: 0x9230, symSize: 0x50 }
+  - { offsetInCU: 0x117, offset: 0x1B48, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport close]', symObjAddr: 0x94, symBinAddr: 0x9280, symSize: 0x28 }
+  - { offsetInCU: 0x142, offset: 0x1B73, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport close]', symObjAddr: 0x94, symBinAddr: 0x9280, symSize: 0x28 }
+  - { offsetInCU: 0x146, offset: 0x1B77, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport connectToHost:port:timeout:error:]', symObjAddr: 0xBC, symBinAddr: 0x92A8, symSize: 0x2CC }
+  - { offsetInCU: 0x171, offset: 0x1BA2, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport connectToHost:port:timeout:error:]', symObjAddr: 0xBC, symBinAddr: 0x92A8, symSize: 0x2CC }
+  - { offsetInCU: 0x175, offset: 0x1BA6, size: 0x4, addend: 0x0, symName: _TGIOS3SetError, symObjAddr: 0x388, symBinAddr: 0x9574, symSize: 0x8C }
+  - { offsetInCU: 0x2AA, offset: 0x1CDB, size: 0x4, addend: 0x0, symName: _TGIOS3SetError, symObjAddr: 0x388, symBinAddr: 0x9574, symSize: 0x8C }
+  - { offsetInCU: 0x2AE, offset: 0x1CDF, size: 0x4, addend: 0x0, symName: _TGIOS3Wait, symObjAddr: 0x414, symBinAddr: 0x9600, symSize: 0x114 }
+  - { offsetInCU: 0x2EF, offset: 0x1D20, size: 0x4, addend: 0x0, symName: _TGIOS3Wait, symObjAddr: 0x414, symBinAddr: 0x9600, symSize: 0x114 }
+  - { offsetInCU: 0x2F3, offset: 0x1D24, size: 0x4, addend: 0x0, symName: _TGIOS3Transfer, symObjAddr: 0x528, symBinAddr: 0x9714, symSize: 0xD8 }
+  - { offsetInCU: 0x397, offset: 0x1DC8, size: 0x4, addend: 0x0, symName: _TGIOS3Transfer, symObjAddr: 0x528, symBinAddr: 0x9714, symSize: 0xD8 }
+  - { offsetInCU: 0x39B, offset: 0x1DCC, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport sendPayload:timeout:error:]', symObjAddr: 0x600, symBinAddr: 0x97EC, symSize: 0x18C }
+  - { offsetInCU: 0x430, offset: 0x1E61, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport sendPayload:timeout:error:]', symObjAddr: 0x600, symBinAddr: 0x97EC, symSize: 0x18C }
+  - { offsetInCU: 0x434, offset: 0x1E65, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport readPayloadWithTimeout:error:]', symObjAddr: 0x78C, symBinAddr: 0x9978, symSize: 0x164 }
+  - { offsetInCU: 0x4BB, offset: 0x1EEC, size: 0x4, addend: 0x0, symName: '-[TGIOS3Transport readPayloadWithTimeout:error:]', symObjAddr: 0x78C, symBinAddr: 0x9978, symSize: 0x164 }
+  - { offsetInCU: 0x4BF, offset: 0x1EF0, size: 0x4, addend: 0x0, symName: '_OBJC_CLASS_$_TGIOS3Transport', symObjAddr: 0x8F0, symBinAddr: 0xC958, symSize: 0x0 }
+  - { offsetInCU: 0x1E, offset: 0x223A, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession init]', symObjAddr: 0x0, symBinAddr: 0x9ADC, symSize: 0x74 }
+  - { offsetInCU: 0x22, offset: 0x223E, size: 0x4, addend: 0x0, symName: '_OBJC_CLASS_$_TGIOS3UnauthenticatedSession', symObjAddr: 0x4C8, symBinAddr: 0xC980, symSize: 0x0 }
+  - { offsetInCU: 0xE8, offset: 0x2304, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession init]', symObjAddr: 0x0, symBinAddr: 0x9ADC, symSize: 0x74 }
+  - { offsetInCU: 0xEC, offset: 0x2308, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession dealloc]', symObjAddr: 0x74, symBinAddr: 0x9B50, symSize: 0x54 }
+  - { offsetInCU: 0x11B, offset: 0x2337, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession dealloc]', symObjAddr: 0x74, symBinAddr: 0x9B50, symSize: 0x54 }
+  - { offsetInCU: 0x11F, offset: 0x233B, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession connectToHost:port:timeout:error:]', symObjAddr: 0xC8, symBinAddr: 0x9BA4, symSize: 0x44 }
+  - { offsetInCU: 0x14A, offset: 0x2366, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession connectToHost:port:timeout:error:]', symObjAddr: 0xC8, symBinAddr: 0x9BA4, symSize: 0x44 }
+  - { offsetInCU: 0x14E, offset: 0x236A, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession close]', symObjAddr: 0x10C, symBinAddr: 0x9BE8, symSize: 0x20 }
+  - { offsetInCU: 0x1B7, offset: 0x23D3, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession close]', symObjAddr: 0x10C, symBinAddr: 0x9BE8, symSize: 0x20 }
+  - { offsetInCU: 0x1BB, offset: 0x23D7, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession sendTLBody:timeout:error:]', symObjAddr: 0x12C, symBinAddr: 0x9C08, symSize: 0x1C8 }
+  - { offsetInCU: 0x1E6, offset: 0x2402, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession sendTLBody:timeout:error:]', symObjAddr: 0x12C, symBinAddr: 0x9C08, symSize: 0x1C8 }
+  - { offsetInCU: 0x1EA, offset: 0x2406, size: 0x4, addend: 0x0, symName: _TGIOS3SessionError, symObjAddr: 0x2F4, symBinAddr: 0x9DD0, symSize: 0x8C }
+  - { offsetInCU: 0x28C, offset: 0x24A8, size: 0x4, addend: 0x0, symName: _TGIOS3SessionError, symObjAddr: 0x2F4, symBinAddr: 0x9DD0, symSize: 0x8C }
+  - { offsetInCU: 0x290, offset: 0x24AC, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession readTLBodyWithTimeout:error:]', symObjAddr: 0x380, symBinAddr: 0x9E5C, symSize: 0x148 }
+  - { offsetInCU: 0x2C2, offset: 0x24DE, size: 0x4, addend: 0x0, symName: '-[TGIOS3UnauthenticatedSession readTLBodyWithTimeout:error:]', symObjAddr: 0x380, symBinAddr: 0x9E5C, symSize: 0x148 }
+  - { offsetInCU: 0x2C6, offset: 0x24E2, size: 0x4, addend: 0x0, symName: '_OBJC_CLASS_$_TGIOS3UnauthenticatedSession', symObjAddr: 0x4C8, symBinAddr: 0xC980, symSize: 0x0 }
+  - { offsetInCU: 0x1E, offset: 0x268C, size: 0x4, addend: 0x0, symName: '-[TGIOS3Handshake requestPQAtHost:port:timeout:error:]', symObjAddr: 0x0, symBinAddr: 0x9FA4, symSize: 0x58C }
+  - { offsetInCU: 0xA8, offset: 0x2716, size: 0x4, addend: 0x0, symName: '-[TGIOS3Handshake requestPQAtHost:port:timeout:error:]', symObjAddr: 0x0, symBinAddr: 0x9FA4, symSize: 0x58C }
+  - { offsetInCU: 0xAC, offset: 0x271A, size: 0x4, addend: 0x0, symName: _TGIOS3HandshakeError, symObjAddr: 0x58C, symBinAddr: 0xA530, symSize: 0x8C }
+  - { offsetInCU: 0x20F, offset: 0x287D, size: 0x4, addend: 0x0, symName: _TGIOS3HandshakeError, symObjAddr: 0x58C, symBinAddr: 0xA530, symSize: 0x8C }
+  - { offsetInCU: 0x213, offset: 0x2881, size: 0x4, addend: 0x0, symName: _TGIOS3Read32, symObjAddr: 0x618, symBinAddr: 0xA5BC, symSize: 0x9C }
+  - { offsetInCU: 0x245, offset: 0x28B3, size: 0x4, addend: 0x0, symName: _TGIOS3Read32, symObjAddr: 0x618, symBinAddr: 0xA5BC, symSize: 0x9C }
+  - { offsetInCU: 0x249, offset: 0x28B7, size: 0x4, addend: 0x0, symName: _TGIOS3ReadTLBytes, symObjAddr: 0x6B4, symBinAddr: 0xA658, symSize: 0x144 }
+  - { offsetInCU: 0x289, offset: 0x28F7, size: 0x4, addend: 0x0, symName: _TGIOS3ReadTLBytes, symObjAddr: 0x6B4, symBinAddr: 0xA658, symSize: 0x144 }
+  - { offsetInCU: 0x1E, offset: 0x2B22, size: 0x4, addend: 0x0, symName: _TGIOS3FactorPQ, symObjAddr: 0x0, symBinAddr: 0xA79C, symSize: 0x3B0 }
+  - { offsetInCU: 0x194, offset: 0x2C98, size: 0x4, addend: 0x0, symName: _TGIOS3FactorPQ, symObjAddr: 0x0, symBinAddr: 0xA79C, symSize: 0x3B0 }
+  - { offsetInCU: 0x198, offset: 0x2C9C, size: 0x4, addend: 0x0, symName: _TGIOS3Step, symObjAddr: 0x3B0, symBinAddr: 0xAB4C, symSize: 0x10C }
+  - { offsetInCU: 0x392, offset: 0x2E96, size: 0x4, addend: 0x0, symName: _TGIOS3Step, symObjAddr: 0x3B0, symBinAddr: 0xAB4C, symSize: 0x10C }
+...

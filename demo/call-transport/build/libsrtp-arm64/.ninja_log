@@ -1,0 +1,20 @@
+# ninja log v7
+4	211	1790446028298739452	CMakeFiles/srtp2.dir/crypto/cipher/cipher_test_cases.c.o	8a8708f64243d5e1
+6	251	1790446028300642605	CMakeFiles/srtp2.dir/crypto/cipher/null_cipher.c.o	16759bb22867fe09
+253	583	1790446028546861259	CMakeFiles/srtp2.dir/crypto/cipher/aes_icm.c.o	637086ebc860c60
+4	777	1790446028298027832	CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o	1d3acca2f466d50
+583	789	1790446028877507977	CMakeFiles/srtp2.dir/crypto/hash/auth.c.o	619139a9d1d89d5b
+777	918	1790446029071040905	CMakeFiles/srtp2.dir/crypto/hash/auth_test_cases.c.o	1496e09ef8b43829
+789	977	1790446029083270908	CMakeFiles/srtp2.dir/crypto/hash/null_auth.c.o	8aedbec1cdeecd7a
+918	1144	1790446029212323535	CMakeFiles/srtp2.dir/crypto/hash/hmac.c.o	813bb7558309a4f0
+212	1291	1790446028506601429	CMakeFiles/srtp2.dir/crypto/cipher/aes.c.o	6702596376a8202b
+1144	1304	1790446029438679641	CMakeFiles/srtp2.dir/crypto/kernel/alloc.c.o	4f68e890a0ea221e
+1304	1513	1790446029598307781	CMakeFiles/srtp2.dir/crypto/kernel/err.c.o	e994f0e5c2f3c676
+977	1526	1790446029271743976	CMakeFiles/srtp2.dir/crypto/hash/sha1.c.o	3b8f59a4b4b9bcb3
+1513	1668	1790446029807127376	CMakeFiles/srtp2.dir/crypto/kernel/key.c.o	120c6a92c912ca40
+1291	1729	1790446029585570324	CMakeFiles/srtp2.dir/crypto/kernel/crypto_kernel.c.o	1f6b06ed370b7c0f
+1669	1968	1790446029963224158	CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o	2291c18a5a130ad9
+1729	2033	1790446030023602936	CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o	a89079d654cdf5f0
+1526	2135	1790446029820520864	CMakeFiles/srtp2.dir/crypto/math/datatypes.c.o	a0816a495ff522c6
+3	2271	1790446028297561029	CMakeFiles/srtp2.dir/srtp/srtp.c.o	dcda8d8f19376ab9
+2271	2367	1790446030565369120	libsrtp2.a	439b89fcfb99ae58

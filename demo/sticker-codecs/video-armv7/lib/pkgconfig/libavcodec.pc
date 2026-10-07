@@ -1,0 +1,14 @@
+prefix=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-armv7
+exec_prefix=${prefix}
+libdir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-armv7/lib
+includedir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-armv7/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 61.19.101
+Requires: libavutil >= 59.39.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -L/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-armv7/lib -lvpx -lm -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavcodec
+includedir=/Users/anazerka/Telegram-iOS/submodules/ffmpeg/Sources/FFMpeg/ffmpeg-7.1.1
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 61.19.101
+Requires:  libavutil >= 59.39.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec -L/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/video-host/lib -lvpx -lm -pthread -lm
+Cflags: -I${includedir}

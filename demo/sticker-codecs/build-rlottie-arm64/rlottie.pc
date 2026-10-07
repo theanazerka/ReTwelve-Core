@@ -1,0 +1,6 @@
+Name: rlottie
+Description: A rlottie library
+Version: 0.0.1
+Requires:
+Libs: -L/usr/lib -lrlottie
+Cflags: -I/usr/local/include

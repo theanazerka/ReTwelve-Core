@@ -1,0 +1,2050 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/uname"
+      - "/Users/anazerka/.opencode/bin/uname"
+      - "/Users/anazerka/.local/bin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: iOS -  - 
+      The host system is: Darwin - 22.6.0 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/gmake"
+      - "/Users/anazerka/.opencode/bin/gmake"
+      - "/Users/anazerka/.local/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/Applications/VMware Fusion.app/Contents/Public/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/gmake"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/gmake"
+      - "/Users/anazerka/Library/Android/sdk/emulator/gmake"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/gmake"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/gmake"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/gmake"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/gmake"
+      - "/Applications/ChatGPT.app/Contents/Resources/gmake"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/make"
+      - "/Users/anazerka/.opencode/bin/make"
+      - "/Users/anazerka/.local/bin/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/cc"
+      - "/Users/anazerka/.opencode/bin/cc"
+      - "/Users/anazerka/.local/bin/cc"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/cc"
+      - "/usr/local/bin/cc"
+      - "/System/Cryptexes/App/usr/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/4.4.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:323 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 385 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 86 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 87 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 206 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 173 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 176 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 177 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 174 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/objcopy"
+      - "/Users/anazerka/.opencode/bin/objcopy"
+      - "/Users/anazerka/.local/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/Applications/VMware Fusion.app/Contents/Public/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/objcopy"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/objcopy"
+      - "/Users/anazerka/Library/Android/sdk/emulator/objcopy"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/objcopy"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/objcopy"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/objcopy"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/objcopy"
+      - "/Applications/ChatGPT.app/Contents/Resources/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/readelf"
+      - "/Users/anazerka/.opencode/bin/readelf"
+      - "/Users/anazerka/.local/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/Applications/VMware Fusion.app/Contents/Public/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/readelf"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/readelf"
+      - "/Users/anazerka/Library/Android/sdk/emulator/readelf"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/readelf"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/readelf"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/readelf"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/readelf"
+      - "/Applications/ChatGPT.app/Contents/Resources/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/dlltool"
+      - "/Users/anazerka/.opencode/bin/dlltool"
+      - "/Users/anazerka/.local/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/dlltool"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/dlltool"
+      - "/Users/anazerka/Library/Android/sdk/emulator/dlltool"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/dlltool"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/dlltool"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/dlltool"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/dlltool"
+      - "/Applications/ChatGPT.app/Contents/Resources/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/addr2line"
+      - "/Users/anazerka/.opencode/bin/addr2line"
+      - "/Users/anazerka/.local/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/Applications/VMware Fusion.app/Contents/Public/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/addr2line"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/addr2line"
+      - "/Users/anazerka/Library/Android/sdk/emulator/addr2line"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/addr2line"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/addr2line"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/addr2line"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/addr2line"
+      - "/Applications/ChatGPT.app/Contents/Resources/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/tapi"
+      - "/Users/anazerka/.opencode/bin/tapi"
+      - "/Users/anazerka/.local/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/tapi"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/tapi"
+      - "/Users/anazerka/Library/Android/sdk/emulator/tapi"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/tapi"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/tapi"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/tapi"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/tapi"
+      - "/Applications/ChatGPT.app/Contents/Resources/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/local/share/cmake/Modules/"
+    found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:323 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 400 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 86 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 87 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 206 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 173 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 176 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 177 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 174 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/cc"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+      Target: x86_64-apple-darwin22.6.0
+      Thread model: posix
+      InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" matched "(Apple (clang|LLVM) version)":
+      Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+      Target: x86_64-apple-darwin22.6.0
+      Thread model: posix
+      InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/usr/local/share/cmake/Modules/Platform/iOS.cmake:1 (include)"
+      - "/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.local/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Cryptexes/App/usr/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/sbin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/sbin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Apple/usr/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Applications/ChatGPT.app/Contents/Resources/"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/"
+      - "/Users/anazerka/.opencode/bin/"
+      - "/Users/anazerka/.local/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
+      - "/Library/Apple/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/"
+      - "/Users/anazerka/Library/Android/sdk/emulator/"
+      - "/Users/anazerka/Library/Android/sdk/platform-tools/"
+      - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/"
+      - "/Users/anazerka/Library/Android/sdk/tools/bin/"
+      - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/"
+      - "/Applications/ChatGPT.app/Contents/Resources/"
+    searched_directories:
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.antigravity-ide/antigravity-ide/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.opencode/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.local/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Cryptexes/App/usr/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/sbin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/sbin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Applications/VMware Fusion.app/Contents/Public/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Apple/usr/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/emulator/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/platform-tools/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/Library/Android/sdk/tools/bin/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback/install_name_tool"
+      - "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Applications/ChatGPT.app/Contents/Resources/install_name_tool"
+      - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin/install_name_tool"
+      - "/Users/anazerka/.opencode/bin/install_name_tool"
+      - "/Users/anazerka/.local/bin/install_name_tool"
+      - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Library/Apple/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Users/anazerka/.codex/tmp/arg0/codex-arg0iIUKcY"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override"
+        - "/Users/anazerka/.antigravity-ide/antigravity-ide/bin"
+        - "/Users/anazerka/.opencode/bin"
+        - "/Users/anazerka/.local/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+        - "/Users/anazerka/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback"
+        - "/Applications/ChatGPT.app/Contents/Resources"
+        - "/Users/anazerka/Library/Android/sdk/emulator"
+        - "/Users/anazerka/Library/Android/sdk/platform-tools"
+        - "/Users/anazerka/Library/Android/sdk/cmdline-tools/latest/bin"
+        - "/Users/anazerka/Library/Android/sdk/tools/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_FIND_ROOT_PATH: "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH"
+      binary: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "armv7"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "6.0"
+      CMAKE_OSX_SYSROOT: "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_49e17/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_49e17.dir/build.make CMakeFiles/cmTC_49e17.dir/build
+        Building C object CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: armv7-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple thumbv7-apple-ios6.0.0 -Wundef-prefix=TARGET_OS_ -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -faligned-alloc-unavailable -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi apcs-gnu -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -internal-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -exception-model=sjlj -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C static library libcmTC_49e17.a
+        /usr/local/bin/cmake -P CMakeFiles/cmTC_49e17.dir/cmake_clean_target.cmake
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e17.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_49e17.a CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o
+        /usr/bin/ranlib libcmTC_49e17.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include] ==> [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_49e17/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_49e17.dir/build.make CMakeFiles/cmTC_49e17.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: armv7-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple thumbv7-apple-ios6.0.0 -Wundef-prefix=TARGET_OS_ -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -faligned-alloc-unavailable -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi apcs-gnu -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -internal-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-AhL8IH -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -exception-model=sjlj -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C static library libcmTC_49e17.a]
+        ignore line: [/usr/local/bin/cmake -P CMakeFiles/cmTC_49e17.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e17.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/ar qc libcmTC_49e17.a CMakeFiles/cmTC_49e17.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/ranlib libcmTC_49e17.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu"
+      binary: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "armv7"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "6.0"
+      CMAKE_OSX_SYSROOT: "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff24a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ff24a.dir/build.make CMakeFiles/cmTC_ff24a.dir/build
+        Building CXX object CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: armv7-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/c++/v1"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple thumbv7-apple-ios6.0.0 -Wundef-prefix=TARGET_OS_ -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -faligned-alloc-unavailable -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi apcs-gnu -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -internal-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -exception-model=sjlj -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include"
+        ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX static library libcmTC_ff24a.a
+        /usr/local/bin/cmake -P CMakeFiles/cmTC_ff24a.dir/cmake_clean_target.cmake
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff24a.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_ff24a.a CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/ranlib libcmTC_ff24a.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include] ==> [/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ff24a/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ff24a.dir/build.make CMakeFiles/cmTC_ff24a.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0   -v -Wl -v -MD -MT CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: armv7-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include/c++/v1"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple thumbv7-apple-ios6.0.0 -Wundef-prefix=TARGET_OS_ -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -faligned-alloc-unavailable -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi apcs-gnu -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -internal-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-tIFimu -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -exception-model=sjlj -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX static library libcmTC_ff24a.a]
+        ignore line: [/usr/local/bin/cmake -P CMakeFiles/cmTC_ff24a.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff24a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/ar qc libcmTC_ff24a.a CMakeFiles/cmTC_ff24a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/ranlib libcmTC_ff24a.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/local/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "CMakeLists.txt:64 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-iHNz4R"
+      binary: "/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-iHNz4R"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "armv7"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "6.0"
+      CMAKE_OSX_SYSROOT: "/Users/anazerka/theos/sdks/iPhoneOS6.1.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-iHNz4R'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32e40/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_32e40.dir/build.make CMakeFiles/cmTC_32e40.dir/build
+        Building C object CMakeFiles/cmTC_32e40.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch armv7 -isysroot /Users/anazerka/theos/sdks/iPhoneOS6.1.sdk -miphoneos-version-min=6.0 -MD -MT CMakeFiles/cmTC_32e40.dir/src.c.o -MF CMakeFiles/cmTC_32e40.dir/src.c.o.d -o CMakeFiles/cmTC_32e40.dir/src.c.o -c /Users/anazerka/Documents/ChatGPT/twelve/demo/sticker-codecs/build-rlottie-ios6/CMakeFiles/CMakeScratch/TryCompile-iHNz4R/src.c
+        Linking C static library libcmTC_32e40.a
+        /usr/local/bin/cmake -P CMakeFiles/cmTC_32e40.dir/cmake_clean_target.cmake
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32e40.dir/link.txt --verbose=1
+        /usr/bin/ar qc libcmTC_32e40.a CMakeFiles/cmTC_32e40.dir/src.c.o
+        /usr/bin/ranlib libcmTC_32e40.a
+        
+      exitCode: 0
+...
